@@ -1,0 +1,179 @@
+*
+{
+	margin: 0; 
+	padding: 0;
+}
+
+html, body
+{
+	height:100%;
+	width:100%;
+	background:#F4F2E8;
+	overflow: auto;
+
+}
+canvas
+{
+	display: inline-block;
+	background:#AD9D8F;
+}
+
+
+button {
+	cursor: pointer;
+	outline: none;
+}
+
+#login {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -150px;
+	width: 400px;
+	height: 200px;
+	background-color: #FCEACB;
+	z-index: 100;
+	border-radius: 10px;
+	//display: none;
+}
+
+#loginName {
+	margin-top: 30px;
+}
+
+#submit {
+	background-color: #AD7D29;
+	color: white;
+	width: 80px;
+	height: 30px;
+	font-size: 16px;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-left: 160px;
+}
+
+.loginInfo {
+	display: block;
+	margin-top: 10px;
+	margin-left: 110px;
+	width: 200px;
+	height: 40px;
+	font-size: 16px;
+	padding-left: 10px;
+	border-radius: 5px;
+	border-width: 0;
+}
+
+
+.submit {
+	cursor: pointer;
+	outline: none;
+}
+
+#history h2 {
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#stepNumber {
+	width: 100px;
+	height: 45px;
+	background-color: #AD9D8F;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+
+#form {
+	margin: auto;
+	width: 250px;
+}
+
+#myCanvas {
+	margin:auto;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+#head {
+	margin-left: 10px;
+	color: #635B52;
+	margin-top: 20px;
+	text-align: center;
+	width: 280px;
+	height: 50px;
+}
+
+#title {
+	width: 140px;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+#mainPannel {
+	background-color: white;
+	//position: absolute;
+	margin: auto;
+	margin-top: 50px;
+	-webkit-filter: blur(10px); /* Chrome, Opera */
+}
+
+#leftPannel {
+	display: inline-block;
+	opacity: 0;
+}
+
+#history {
+	margin-top: 40px;
+	width: 250px;
+	float: right;
+	margin-right: 20px;
+	border-radius: 10px;
+	border-width: 10px;
+	background: #AD9D8F;
+	opacity: 0;
+}
+
+#localRank {
+	margin-left: 42px;
+	margin-top: 10px;
+}
+
+.rankBtn {
+	background-color: #746454;
+	color: #F7F7EA;
+	font-size: 14px;
+	width: 80px;
+	height: 32px;
+	border-width: 0;
+	border-radius: 5px;
+}
+
+.submit
+{
+	padding: 5px;
+	border-radius: 5px;
+	background: #648AFF;
+	color: #fffff0;
+}
+
+form
+{
+	padding: 10px;
+}
+
+#list {
+	color: #fff;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.inputNum
+{
+	width: 50px;
+	font-size: 18px;
+}
