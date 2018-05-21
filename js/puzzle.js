@@ -60,11 +60,17 @@ $(document).ready(function()
     });
 
 	function cbRegister(resp) {
-		console.log("register:" + JSON.stringify(resp));
-		$("#login").hide();
-		$("#mainPannel").css({
-    		"-webkit-filter": 'blur(0)'
-       	});
+		var s = JSON.stringify(resp);
+        var m = JSON.parse(s);
+        if(m == "Error: Transaction rejected by user") {
+        	console.log("Transaction rejected by user!");
+        } else {
+	  		console.log("register:" + JSON.stringify(resp));
+			$("#login").hide();
+			$("#mainPannel").css({
+	    		"-webkit-filter": 'blur(0)'
+	       	});
+        }
 	}
 
 	//cbRegister("");
